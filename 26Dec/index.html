@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <style>
+       table, tr, td{
+        border: 2px solid red;
+        border-collapse: collapse;
+        padding: 20px;
+       }
+       form{
+        width: 30vw;
+        margin: auto;
+        margin-top: 2%;
+       }
+       .buttons{
+        position: relative;
+        left: 30%;
+       }
+    </style>
+</head>
+<body> 
+    <form action="">      
+    <table>
+        <tr>
+            <td><label for="name">Name</label></td>
+            <td><input type="text" id="name" placeholder="Name"></td>
+        </tr>
+        <tr>
+            <td><label for="role">Roll no.</label></td>
+            <td><input type="number" id="role" placeholder="Select Roll no."></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" id="email" placeholder="Enter Email"></td>
+        </tr>
+        <tr>
+            <td><label for="dob">DOB</label></td>
+            <td><input type="date" id="dob"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><label for="marcedes">MARCEDES</label>
+                <input type="checkbox" id="marcedes" name="marcedes">
+                <label for="bmw">BMW</label>
+                <input type="checkbox" id="bmw" name="bmw">
+                <label for="audi">AUDI</label>
+                <input type="checkbox" id="audi" name="audi">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="male">
+                <label for="Others">Others</label>
+                <input type="radio" id="Others" name="male">
+            </td>
+        </tr>
+            <tr>
+                <td colspan="2" class="buttons">
+                  <input type="submit">
+                 <input type="reset">
+                </td>
+            </tr>
+    </table>
+</form>
+</body>
+</html>
